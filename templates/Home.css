@@ -1,0 +1,32 @@
+.input{
+    width: 20em;
+    height: 2em;
+}
+
+#form {
+    margin: 7em;
+    width: 21em;
+}
+
+/* change the color of button */
+
+#button{
+    background-color:  #1C658C;
+    color: white;
+    border: none;
+    width: 10em;
+    height: 3em;
+    border-radius: 5em;
+    margin-left: 6em;
+}    
+
+#button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #E5E3C9;
+}

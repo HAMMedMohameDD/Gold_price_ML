@@ -1,0 +1,24 @@
+#welcome{
+    font-size: 5em;
+    display: block;
+    color: #325288;
+    font-family: Monospace	;
+    margin-top: 1em;
+    margin-left: 6em;
+}
+
+
+body{
+    background-color: #D3E4CD;
+    display: block;
+    justify-content: center;
+}
+
+#textarea{
+    display: inline-flex;
+    margin-top: 5em;
+    display: block;
+    margin-left:26em;
+    width: 50em;
+    height: 10em;
+}

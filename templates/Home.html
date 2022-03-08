@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Home.css">
+  </head>
+    <body>
+      <form id="form" , method="POST" >
+    
+
+        <fieldset>
+          {{ form.hidden_tag() }} 
+          {{ form.name.label }} {{form.name}}<br><br>
+          {{form.spx.label}} {{form.spx}}
+          <br><br>
+          {{form.uso.label}} &nbsp;
+          {{form.uso}}<br><br>
+        <label for="slv">Slv:</label><br>
+        {{form.slv.label}} {{form.slv}}<br><br>
+        <label for="eur_usd">Eur_usd:</label><br>
+        {{form.eur_usd.label}} {{form.eur_usd}}<br><br>
+        {{ form.submit() }}      </fieldset>
+      </form>
+      <script type="text/javascript" language="javascript">
+         function auth(event) {
+          event.preventDefault();
+
+          var name = document.getElementById("fname").value;
+
+          if (name != "") {
+              window.location.replace("the output.html");
+              localStorage.something =" Welcome " + name + ""; 
+          } else {
+              window.location.replace("the output.html")
+              localStorage.something ="Please Enter Your Name"; 
+              return;
+          }
+    }
+        </script>
+    </body>
+</html>
